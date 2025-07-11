@@ -1,0 +1,19 @@
+.custom-menu .ant-menu-item,
+.custom-menu .ant-menu-submenu-title {
+  background-color: #fff;
+  color: #FF995E !important;
+}
+
+.custom-menu .ant-menu-item:hover {
+  background-color: #1a1a3c !important;
+  color: #d6d5e3 !important;
+  text-decoration: none !important;
+}
+
+.custom-menu .ant-menu-item-selected {
+  background-color: #FF995E !important;
+  color: white !important;
+  text-decoration: none !important;
+  border-bottom: none;
+  
+}
