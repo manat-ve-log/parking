@@ -1,0 +1,81 @@
+/* Admin.css */
+
+.admin-container {
+  width: 50%;
+  
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ff7f32;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 {
+  color: #ff7f32;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.admin-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.admin-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.admin-item span {
+  word-break: break-all;
+  color: black;
+}
+
+.admin-item div {
+  display: flex;
+  align-items: center;
+}
+
+.ant-btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.ant-modal-header {
+  background-color: #ff7f32;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+.ant-modal-footer .ant-btn-primary {
+  background-color: #ff7f32;
+  border-color: #ff7f32;
+}
+
+.ant-input {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.admin-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.admin-list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 127, 50, 0.7);
+  border-radius: 3px;
+}
+
+.admin-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}

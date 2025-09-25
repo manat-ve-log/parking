@@ -1,0 +1,104 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;  /* เต็มความกว้างหน้าจอ */
+  height: 100vh; /* เต็มความสูงหน้าจอ */
+  background: #FF8D4C;
+  margin: 0;     /* ลบ margin ที่อาจเกิดขึ้น */
+}
+
+
+.login-box {
+  background: rgb(0, 0, 0);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px hsl(0, 0%, 23%);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1rem;
+  color: #FF8D4C;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+}
+
+.login-box button {
+  width: 50%; /* ปรับตามต้องการ */
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #FF8D4C;
+  align-self: center; /* จัดปุ่มให้อยู่กลางแนวนอน */
+}
+.login-box button:hover {
+  opacity: 0.9;
+}
+
+.google-btn {
+  background: white;
+  border: 1px solid #ffffff;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  margin: 10px 0;
+  color: #777;
+}
+
+.login-box {
+  width: 350px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* จัดให้อยู่กลางแนวนอน */
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 15px; /* เว้นระยะจากองค์ประกอบด้านบน */
+}
+
+.google-btn:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.google-logo {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.google-btn:hover .google-logo {
+  transform: scale(1.2);
+}
+

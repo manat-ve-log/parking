@@ -1,0 +1,95 @@
+.setting-container {
+
+ font-family: "Prompt", sans-serif;
+ margin: 20px auto;
+ 
+ 
+}
+
+.page-title {
+  display: inline-block;
+  background-color: #ff7f32;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 27px;
+  width: 40vw;
+}
+
+.price-card {
+  border: 2px solid #f37f37;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #fdfdfd;
+}
+
+.vehicle-label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #f37f37;
+}
+
+.price-input {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  gap: 8px;
+}
+
+.price-input input {
+  width: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ffe1cc;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f37f37;
+  outline: none;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #ff7f32;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.save-btn:hover {
+  background-color: #e96b20;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: #aaa;
+}
